@@ -16,7 +16,9 @@ bool cmp(int x, int y) {
 }
 
 void suffix_array() {
-    for (int i = 0; i < n; i++) suff[i] = i;
+    for (int i = 0; i < n; i++) {
+        suff[i] = i;
+    }
     sort(suff, suff + n, cmp);
     int cn = 0;
     for (int i = 0; i < n; i++) {
