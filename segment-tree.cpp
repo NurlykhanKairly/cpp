@@ -39,7 +39,7 @@ struct node {
 };
 
 int sz;
-node t[N * 20];
+node t[N * 4];
 int rt[N];
 
 int get(int v, int l, int r, int L, int R) {
